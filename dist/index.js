@@ -7423,7 +7423,7 @@
   GSDevTools.register = _initCore5;
   _getGSAP3() && gsap3.registerPlugin(GSDevTools);
 
-  // src/index.ts
+  // src/index.js
   gsapWithCSS.registerPlugin(GSDevTools);
   window.addEventListener("load", init4);
   function init4() {

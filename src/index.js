@@ -53,9 +53,6 @@ function init() {
     .swingUp(headlineRows[0].childNodes, "-=0.2")
     .swingUp(headlineRows[1].childNodes, "<+0.1")
     .swingUp(headlineRows[2].childNodes, "<+0.1");
-
-  // add GSDevTools to the project
-  // GSDevTools.create();
 }
 
 gsap.registerEffect({
